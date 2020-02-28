@@ -171,7 +171,7 @@ public class FilterSmells {
 			e.printStackTrace();
 		}
 
-		FilterSmellResult result = new FilterSmellResult();
+		FilterSmellResult result = new FilterSmellResult(commitAnalisado);
 
 		result.setMetodosNotSmelly(listaMethodsNotSmelly);
 		result.setMetodosSmell(listaMethodsSmelly);
